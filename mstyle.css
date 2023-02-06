@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width: 100%;
+   height: 80vh;
+    background: url(field.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    position: fixed;
+}
+.logo-area{
+    width: 5px;
+}
+.logo-area a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.logo-area a img{
+    width: 40px;
+}
+.logo-area a h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: none;
+    margin-left: 15px;
+}
+.menu-area{
+    width: 60%;
+    
+    
+
+    
+}
+.menu-area ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-area ul li a{
+    color: #fff;
+    font-family: lato;
+    font-size: 10px;
+}
+.menu-area ul li a:hover{
+    color:white;
+
+}
+.info{
+    position: absolute;
+    top:50% ;
+    left: 10%;
+    transform: translateY(-5);
+    
+    
+    
+    
+}
+.info h1{
+    color:white;
+    font-family: lato;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.info p{
+    color:white;
+    font-size: 30px;
+    font-family: arial;
+    margin: 30px 0px;
+}
+.btn button{
+    padding: 10px 20px;
+    background:yellow;
+    color: black;
+    
+    font-size: 1opx;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    color: azure;
+    background-color: aqua;
+    transition: .5s;
+}
+.detail{
+    width: 100%;
+    margin-top: 20px;
+    
+    margin-right: 40px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .info.img7{
+    width: 100%;
+    margin-top: 80%;
+    margin-bottom: 40%;
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.info p{
+    font-size: 15px;
+}
+
+    
+    
+
+span{
+    border: 1px;
+    background-color: black;
+    color: white;
+    border-width: 15px;
+}
+.menu-area ul li{
+    position: relative;
+}
+.menu-area ul li::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background: yellow;
+    bottom:-10px ;
+    left: 0;
+    transition: .3s all ease-in-out;
+}
+.menu-area ul li:hover::after{
+    width: 100%;
+}
